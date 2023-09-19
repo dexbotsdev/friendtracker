@@ -1,9 +1,6 @@
 import { Button, Container, Group, Grid, Anchor, ActionIcon, rem, Text, Image, Flex, Center } from "@mantine/core";
-import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandInstagram, IconBrandFacebook } from '@tabler/icons-react';
-import { StatsA1 } from "./statsA1";
-import { StatsB1 } from "./statsB1";
-import { StatsA2 } from "./statsA2";
-import { StatsB2 } from "./statsB2";
+import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandFacebook } from '@tabler/icons-react';
+
 import { LeftStatsA1 } from "./LeftStatsA1";
 import { LeftStatsB1 } from "./LeftStatsB1";
 import { RightStatsA1 } from "./RightStatsA1";

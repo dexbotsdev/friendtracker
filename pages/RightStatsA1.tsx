@@ -20,7 +20,7 @@ export function RightStatsA1() {
       </div>
 
       <ThemeIcon variant="light" className={classes.itemIcon} size={60} radius="md">
-        <Image src="/assets/icons/2.png" />
+        <Image src="/assets/icons/2.png"  alt="a"/>
       </ThemeIcon>
 
     </div>

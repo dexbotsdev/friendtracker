@@ -13,7 +13,7 @@ export function LeftStatsA1() {
   const items = data.map((item) => (
     <div className={classes.item} key={item.image}>
       <ThemeIcon variant="light" className={classes.itemIcon} size={60} radius="md">
-        <Image src="/assets/icons/3.png" />
+        <Image src="/assets/icons/3.png" alt="a"/>
       </ThemeIcon>
 
       <div>
