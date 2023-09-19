@@ -1,5 +1,5 @@
 import { Button, Container, Group, Grid, Anchor, ActionIcon, rem, Text, Image, Flex, Center } from "@mantine/core";
-import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandFacebook } from '@tabler/icons-react';
+import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandFacebook, IconBrandTelegram } from '@tabler/icons-react';
 
 import   LeftStatsA1   from "./LeftStatsA1";
 import   LeftStatsB1  from "./LeftStatsB1";
@@ -45,20 +45,17 @@ export default function IndexPage() {
       }}>
         <Grid.Col span={6}>
           <Group gap="sm" mt="xl">
-            <ActionIcon size="lg" variant="transparent" color="cyan" >
+            <ActionIcon size="lg" variant="transparent" color="cyan" component="a" href="https://twitter.com/FrndtrackerERC">
               <IconBrandTwitterFilled />
             </ActionIcon>
-            <ActionIcon size="lg" variant="transparent" color="cyan" >
-              <IconBrandYoutubeFilled />
-            </ActionIcon>
-            <ActionIcon size="lg" variant="transparent" color="cyan" >
-              <IconBrandFacebook />
+            <ActionIcon size="lg" variant="transparent" color="cyan"  component="a" href="https://t.me/FriendtrackerERC">
+              <IconBrandTelegram />
             </ActionIcon>
           </Group>
         </Grid.Col>
         <Grid.Col span={6} mt="xl">
           <Group gap="sm" justify="flex-end">
-            {items}
+            
           </Group>
         </Grid.Col>
       </Grid>
