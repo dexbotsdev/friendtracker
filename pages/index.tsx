@@ -143,8 +143,7 @@ export default function IndexPage() {
         <Grid.Col span={4}></Grid.Col>
         <Grid.Col span={3}>
           <div    className={classes.textItem}>
-          <Center> <Text c="#ffffff" fw={800} m="md" ><span style={{ color: "#4BF4FF", fontWeight: "800" }}>New Look</span> - the best earnings
-            <br />in the casino industry!</Text></Center>
+          <Center> <Text c="#ffffff" fw={800} m="md" >EASIER WAY OUT TO ANALYZE NEXT FREIND TECH PROFILE</Text></Center>
             </div>
           <Center>
             
