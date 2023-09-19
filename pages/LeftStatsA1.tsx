@@ -1,11 +1,11 @@
-import { Image, Text, Container, ThemeIcon, Title, SimpleGrid } from '@mantine/core';
+import { Image, Text, Container, ThemeIcon, Title, SimpleGrid, rem } from '@mantine/core';
  import classes from './css/leftStats.module.css';
 
 const data = [
   {
     image: 'auditors',
-    title: 'Bonus system',
-    description: 'Bonus for first entry',
+    title: 'Unique Ranking System',
+    description: '',
   } 
 ];
 
@@ -16,12 +16,9 @@ export default function LeftStatsA1() {
         <Image src="/assets/icons/3.png" alt="a"/>
       </ThemeIcon>
 
-      <div>
-        <Text   c="#00E151" fw={800} fz="md" className={classes.itemTitle}>
+         <Text   c="#00E151" fw={800} fz="sm" className={classes.itemTitle} mt={rem(12)}>
           {item.title}
-        </Text>
-        <Text   c="#ffffff" fw={800} fz="xs" >{item.description}</Text>
-      </div>
+        </Text> 
     </div>
   ));
 

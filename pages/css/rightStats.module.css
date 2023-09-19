@@ -9,11 +9,11 @@
   
   .itemIcon {
     padding: var(--mantine-spacing-xs);
-    margin-right: var(--mantine-spacing-md);
+    margin-left: var(--mantine-spacing-md);
   }
   
   .itemTitle {
-    margin-bottom: calc(var(--mantine-spacing-xs) / 2);
+    margin-bottom: calc(var(--mantine-spacing-xs) / 2);  
     display: flex;
   }
   

@@ -39,7 +39,7 @@ export default function IndexPage() {
       backgroundColor: "#060d0e",
     }}>
       <Grid gutter={{ base: 15, xs: 'md', }} style={{
-        height: "10vh",
+        height: "25vh",
         width: "80%",
         margin: "auto",
       }}>
@@ -62,7 +62,7 @@ export default function IndexPage() {
           </Group>
         </Grid.Col>
       </Grid>
-      <Grid justify="center" align="center" gutter={{ base: 15, xs: 'md', m: 'xl', xl: 50 }} >
+      <Grid justify="center" align="center" gutter={{ base: 15, xs: 'md', m: 'xl', xl: 50 }}>
         <Grid.Col span={2} style={{
           height: "60vh"
         }}></Grid.Col>
@@ -73,12 +73,14 @@ export default function IndexPage() {
       </Grid>
 
       <Grid justify="center" align="stretch" style={{
-          width: "90ww",
-          margin: "auto"
+          width: "100ww",
+          margin: "auto",
+          marginTop:"5rem"
+          
         }}
       >
-        <Grid.Col span={2}></Grid.Col>
-        <Grid.Col span={4}><Flex
+        <Grid.Col span={1}></Grid.Col>
+        <Grid.Col span={5}><Flex
           mih={40}
           gap="md"
           justify="flex-start"
@@ -88,7 +90,7 @@ export default function IndexPage() {
         >
           <LeftStatsA1 />
         </Flex></Grid.Col>
-        <Grid.Col span={4}><Flex
+        <Grid.Col span={5}><Flex
           mih={40}
           gap="md"
           justify="flex-end"
@@ -99,7 +101,7 @@ export default function IndexPage() {
           <RightStatsA1 />
 
         </Flex></Grid.Col>  
-        <Grid.Col span={2}></Grid.Col>
+        <Grid.Col span={1}></Grid.Col>
 
       </Grid>
       <Grid justify="center" align="stretch"
@@ -109,8 +111,8 @@ export default function IndexPage() {
           marginTop: "5vh"
         }}
       >
-        <Grid.Col span={3}></Grid.Col>
-        <Grid.Col span={3}><Flex
+        <Grid.Col span={2}></Grid.Col>
+        <Grid.Col span={4}><Flex
           mih={40}
           gap="md"
           justify="flex-start"
@@ -122,7 +124,7 @@ export default function IndexPage() {
 
         </Flex>
         </Grid.Col>
-        <Grid.Col span={3}><Flex
+        <Grid.Col span={4}><Flex
           mih={40}
           gap="md"
           justify="flex-end"
@@ -135,7 +137,7 @@ export default function IndexPage() {
 
         </Flex>
         </Grid.Col>
-        <Grid.Col span={3}></Grid.Col>
+        <Grid.Col span={2}></Grid.Col>
       </Grid>
       <Grid justify="center" align="stretch">
         <Grid.Col span={4}></Grid.Col>
