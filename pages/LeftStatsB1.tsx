@@ -9,7 +9,7 @@ const data = [
   } 
 ];
 
-export function LeftStatsB1() {
+export default function LeftStatsB1() {
   const items = data.map((item) => (
     <div className={classes.item} key={item.image}>
       <ThemeIcon variant="light" className={classes.itemIcon} size={60} radius="md">

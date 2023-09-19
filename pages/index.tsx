@@ -1,10 +1,10 @@
 import { Button, Container, Group, Grid, Anchor, ActionIcon, rem, Text, Image, Flex, Center } from "@mantine/core";
 import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandFacebook } from '@tabler/icons-react';
 
-import { LeftStatsA1 } from "./LeftStatsA1";
-import { LeftStatsB1 } from "./LeftStatsB1";
-import { RightStatsA1 } from "./RightStatsA1";
-import { RightStatsB1 } from "./RightStatsB1";
+import   LeftStatsA1   from "./LeftStatsA1";
+import   LeftStatsB1  from "./LeftStatsB1";
+import  RightStatsA1   from "./RightStatsA1";
+import   RightStatsB1   from "./RightStatsB1";
 
 
 const links = [

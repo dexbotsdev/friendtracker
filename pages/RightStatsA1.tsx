@@ -9,7 +9,7 @@ const data = [
   } 
 ];
 
-export function RightStatsA1() {
+export default function RightStatsA1() {
   const items = data.map((item) => (
     <div className={classes.item} key={item.image}>
       <div style={{alignItems:"flex-end", justifyContent:"flex-end", justifyItems:"end"}}>

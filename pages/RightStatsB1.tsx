@@ -9,7 +9,7 @@ const data = [
   } 
 ];
 
-export function RightStatsB1() {
+export default function RightStatsB1() {
   const items = data.map((item) => (
     <div className={classes.item} key={item.image}>
      <div>
