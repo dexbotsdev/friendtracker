@@ -147,7 +147,7 @@ export default function IndexPage() {
             </div>
           <Center>
             
-            <Button radius={'xl'} variant="filled" color="#4BF4FF"><Text c="black" fw={700}>Analyzer BOT</Text></Button>
+            <Button component="a" href="https://t.me/friendtrackerbot" radius={'xl'} variant="filled" color="#4BF4FF"><Text c="black" fw={700}>Analyzer BOT</Text></Button>
           </Center>
         </Grid.Col>
         <Grid.Col span={4}></Grid.Col>
