@@ -1,5 +1,13 @@
 import { Button, Container, Group, Grid, Anchor, ActionIcon, rem, Text, Image, Flex, Center } from "@mantine/core";
 import { IconBrandTwitterFilled, IconBrandYoutubeFilled, IconBrandInstagram, IconBrandFacebook } from '@tabler/icons-react';
+import { StatsA1 } from "./statsA1";
+import { StatsB1 } from "./statsB1";
+import { StatsA2 } from "./statsA2";
+import { StatsB2 } from "./statsB2";
+import { LeftStatsA1 } from "./LeftStatsA1";
+import { LeftStatsB1 } from "./LeftStatsB1";
+import { RightStatsA1 } from "./RightStatsA1";
+import { RightStatsB1 } from "./RightStatsB1";
 
 
 const links = [
@@ -25,7 +33,7 @@ export default function IndexPage() {
 
   return (
     <Container fluid style={{
-      height: "120vh",
+      height: "150vh",
       maxWidth: "100wh",
       backgroundImage: "url('./assets/bgFull.jpg')",
       backgroundSize: "cover",
@@ -67,9 +75,8 @@ export default function IndexPage() {
         <Grid.Col span={2}></Grid.Col>
       </Grid>
 
-      <Grid justify="center" align="stretch"
-        style={{
-          width: "70ww",
+      <Grid justify="center" align="stretch" style={{
+          width: "90ww",
           margin: "auto"
         }}
       >
@@ -82,20 +89,21 @@ export default function IndexPage() {
           direction="row"
           wrap="wrap"
         >
-          <Image src="/assets/2.png" width="100%" />
+          <LeftStatsA1 />
         </Flex></Grid.Col>
         <Grid.Col span={4}><Flex
           mih={40}
           gap="md"
           justify="flex-end"
-          align="center"
+          align="right"
           direction="row"
           wrap="wrap"
         >
-          <Image src="/assets/4.png" width="100%" />
+          <RightStatsA1 />
 
-        </Flex></Grid.Col>
+        </Flex></Grid.Col>  
         <Grid.Col span={2}></Grid.Col>
+
       </Grid>
       <Grid justify="center" align="stretch"
         style={{
@@ -113,7 +121,7 @@ export default function IndexPage() {
           direction="row"
           wrap="wrap"
         >
-          <Image src="/assets/3.png" width="100%" />
+          <LeftStatsB1 />
 
         </Flex>
         </Grid.Col>
@@ -121,32 +129,33 @@ export default function IndexPage() {
           mih={40}
           gap="md"
           justify="flex-end"
-          align="center"
+          align="right"
           direction="row"
           wrap="wrap"
         >
-          <Image src="/assets/5.png" width="100%" />
+          <RightStatsB1 />
+
 
         </Flex>
         </Grid.Col>
         <Grid.Col span={3}></Grid.Col>
       </Grid>
       <Grid justify="center" align="stretch">
-        <Grid.Col span={5}></Grid.Col>
-        <Grid.Col span={2} >
-
-          <Image src="/assets/1.png" width="100%" />
+        <Grid.Col span={4}></Grid.Col>
+        <Grid.Col span={3} >
+          <Center> <Text c="#ffffff" fw={800} m="md" ><span style={{ color: "#4BF4FF", fontWeight: "800" }}>New Look</span> - the best earnings
+            <br />in the casino industry!</Text></Center>
           <Center>
             <Button radius={'xl'} variant="filled" color="#4BF4FF"><Text c="black" fw={700}>Analyzer BOT</Text></Button>
           </Center>
         </Grid.Col>
-        <Grid.Col span={5}></Grid.Col>
+        <Grid.Col span={4}></Grid.Col>
       </Grid>
       <Grid style={{
         margin: "auto",
         marginTop: "10vh"
       }}>
-        <Grid.Col span={12}> <Center>
+        <Grid.Col span={12} style={{ backgroundColor: "transparent", fontWeight: "800" }} > <Center>
           <Text c="#4BF4FF" fw={400}>All right reserved by Company name 2023</Text>
         </Center></Grid.Col>
       </Grid>
