@@ -3,9 +3,17 @@
     padding-bottom: rem(50px);
   }
   
+  
   .item {
-    display: flex;
+    display: none;
   }
+  
+  
+  @media screen and (min-width: 768px) {
+    .item {
+      display: flex;
+    }
+}
   
   .itemIcon {
     padding: var(--mantine-spacing-xs);

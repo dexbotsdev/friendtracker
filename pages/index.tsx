@@ -5,7 +5,7 @@ import   LeftStatsA1   from "./LeftStatsA1";
 import   LeftStatsB1  from "./LeftStatsB1";
 import  RightStatsA1   from "./RightStatsA1";
 import   RightStatsB1   from "./RightStatsB1";
-
+import classes from "./styles.module.css";
 
 const links = [
   { link: '#', label: 'Privacy Policy' },
@@ -141,10 +141,13 @@ export default function IndexPage() {
       </Grid>
       <Grid justify="center" align="stretch">
         <Grid.Col span={4}></Grid.Col>
-        <Grid.Col span={3} >
+        <Grid.Col span={3}>
+          <div    className={classes.textItem}>
           <Center> <Text c="#ffffff" fw={800} m="md" ><span style={{ color: "#4BF4FF", fontWeight: "800" }}>New Look</span> - the best earnings
             <br />in the casino industry!</Text></Center>
+            </div>
           <Center>
+            
             <Button radius={'xl'} variant="filled" color="#4BF4FF"><Text c="black" fw={700}>Analyzer BOT</Text></Button>
           </Center>
         </Grid.Col>
@@ -156,7 +159,8 @@ export default function IndexPage() {
       }}>
         <Grid.Col span={12} style={{ backgroundColor: "transparent", fontWeight: "800" }} > <Center>
           <Text c="#4BF4FF" fw={400}>All right reserved by Company name 2023</Text>
-        </Center></Grid.Col>
+        </Center>
+        </Grid.Col>
       </Grid>
     </Container>
   );
