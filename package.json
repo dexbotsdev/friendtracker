@@ -11,6 +11,8 @@
   "dependencies": {
     "@mantine/core": "7.0.0",
     "@mantine/hooks": "7.0.0",
+    "@tabler/icons": "^2.34.0",
+    "@tabler/icons-react": "^2.34.0",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
