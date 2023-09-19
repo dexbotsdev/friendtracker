@@ -4,7 +4,7 @@ import { Image, Text, Container, ThemeIcon, Title, SimpleGrid, rem } from '@mant
 const data = [
   {
     image: 'auditors',
-    title: 'Instant payouts',
+    title: 'Twitter Profile',
     description: '',
   } 
 ];
