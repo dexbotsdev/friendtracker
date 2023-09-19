@@ -154,7 +154,7 @@ export default function IndexPage() {
         marginTop: "10vh"
       }}>
         <Grid.Col span={12} style={{ backgroundColor: "transparent", fontWeight: "800" }} > <Center>
-          <Text c="#4BF4FF" fw={400}>All right reserved by Company name 2023</Text>
+          <Text c="#4BF4FF" fw={400}>Copyright 2023</Text>
         </Center>
         </Grid.Col>
       </Grid>
